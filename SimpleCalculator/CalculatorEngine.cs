@@ -30,6 +30,7 @@ namespace SimpleCalculator
                     throw new InvalidOperationException("Specified operation is not recognized.");
             }
             return result;
+            StringBuilder myResult = new StringBuilder(argFirstNumber+argOperation+argSecondNumber+"="+result);
         }
     }
 }
